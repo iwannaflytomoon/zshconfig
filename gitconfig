@@ -1,0 +1,7 @@
+[user]
+    email = iwannaflytomoon@gmail.com
+    name = iwannaflytomoon
+[psu]
+    default = simple
+[core]
+    editor = /usr/bin/vim
