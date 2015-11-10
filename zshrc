@@ -59,6 +59,7 @@ source $ZSH/oh-my-zsh.sh
 export PYSPARK_DRIVER_PYTHON=ipython
 #export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$PATH:/usr/local/git/bin"
+export SVN_EDITOR="vim"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
