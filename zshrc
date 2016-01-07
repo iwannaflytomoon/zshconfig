@@ -55,7 +55,7 @@ plugins=(git zsh-syntax-highlighting colored-man-pages rsync sudo k cp z)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-#export TERM="xterm-256color"
+export TERM="xterm-256color"
 export PYSPARK_DRIVER_PYTHON=ipython
 #export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$PATH:/usr/local/git/bin"
