@@ -100,10 +100,10 @@ PROMPT=$'%{$purple%}%n%{$reset_color%} in %{$limegreen%}%~%{$reset_color%}$(ruby
 eval my_color='$FG[219]'
 
 # right prompt
-if type "virtualenv_prompt_info" > /dev/null
-then
-	RPROMPT='$(virtualenv_prompt_info)$my_color%n@%m%{$reset_color%}%'
-else
-	RPROMPT='$my_color%n@%m%{$reset_color%}%'
-fi
+#if type "virtualenv_prompt_info" > /dev/null
+#then
+#	RPROMPT='$(virtualenv_prompt_info)$my_color%n@%m%{$reset_color%}%'
+#else
+#	RPROMPT='$my_color%n@%m%{$reset_color%}%'
+#fi
 
