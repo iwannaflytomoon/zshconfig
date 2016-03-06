@@ -88,4 +88,4 @@ export LC_ALL=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #export JAVA_HOME=/home/java7/
 alias ll='k'
-
+alias vim='/usr/local/vim/bin/vim'
