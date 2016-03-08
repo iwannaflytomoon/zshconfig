@@ -1,7 +1,24 @@
 [user]
-    email = iwannaflytomoon@gmail.com
     name = iwannaflytomoon
+    email = iwannaflytomoon@gmail.com
+[push]
+    default = simple
+[merge]
+    tool = vimdiff
+[credential]
+    helper = store
+[diff]
+    tool = vim
+[difftool]
+    prompt = false
+[color]
+    ui = true
+    branch = auto
+    status = auto
 [psu]
     default = simple
 [core]
-    editor = /usr/bin/vim
+    editor = vim
+    excludesfile = ~/.gitignore
+[mergetool]
+    prompt = true
