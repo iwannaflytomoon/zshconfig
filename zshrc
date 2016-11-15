@@ -50,7 +50,7 @@ ZSH_THEME="half-life_kenan"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting colored-man-pages rsync sudo k cp z)
+plugins=(git zsh-syntax-highlighting colored-man-pages zsh-autosuggestions history rsync k cp z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -64,6 +64,10 @@ export SVN_EDITOR="vim"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+#history
+setopt HIST_IGNORE_DUPS
+setopt EXTENDED_HISTORY
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -89,3 +93,4 @@ export LC_ALL=en_US.UTF-8
 #export JAVA_HOME=/home/java7/
 alias ll='k'
 alias vim='/usr/local/vim/bin/vim'
+setopt no_nomatch
